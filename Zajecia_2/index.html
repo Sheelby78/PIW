@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        #modal {
+            display: none;
+            z-index: 999;
+            position: fixed;
+            background-color: rgba(0, 0, 0, 0.6);
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <body class="d-flex flex-column h-100">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-center">
+            <a class="navbar-brand" href="#">To Do List</a>
+        </nav>
+        <div class="container my-5">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="input-group mb-3">
+                        <input type="text" id="input" class="form-control">
+                        <div class="input-group-append">
+                            <button id="add-btn" class="btn btn-primary">Dodaj</button>
+                        </div>
+                    </div>
+                    <button id="undo-btn" class="btn btn-primary" style="display: block; margin: auto;">Cofnij</button>
+                    <br>
+                    <ul id="list" class="list-group"></ul>
+                </div>
+            </div>
+
+            <!-- Modal -->
+            <div id="modal" class="modal">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Potwierdź usunięcie</h5>
+
+                        </div>
+                        <div class="modal-body">
+                            <p>Czy na pewno chcesz usunąć tę pozycję?</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button id="confirm-btn" class="btn btn-danger">Tak</button>
+                            <button id="cancel-btn" class="btn btn-secondary" data-dismiss="modal">Nie</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+
+</html>
