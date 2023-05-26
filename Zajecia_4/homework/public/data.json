@@ -1,0 +1,42 @@
+[
+    {
+        "city": "Warszawa",
+        "bedrooms": 2,
+        "description": "Nowoczesne mieszkanie blisko centrum",
+        "price": 350000,
+        "address": "ul. Królewska 12",
+        "mail": "wawa123@mail.com",
+        "image":
+          "https://photos.zillowstatic.com/fp/29356d546adfa1c41da85fc05c555123-p_e.jpg"
+      },
+      {
+        "city": "Gdańsk",
+        "bedrooms": 3,
+        "description": "Duże mieszkanie w spokojnej okolicy",
+        "price": 450000,
+        "address": "ul. Długa 23",
+        "mail": "gdansk123@mail.com",
+        "image":
+          "https://photos.zillowstatic.com/fp/04e403e91111fc5e3ec1e3451640515f-p_e.jpg"
+      },
+      {
+        "city": "Kraków",
+        "bedrooms": 1,
+        "description": "Kawalerka w ścisłym centrum",
+        "price": 250000,
+        "address": "ul. Szewska 8",
+        "mail": "krakow123@mail.com",
+        "image":
+          "https://photos.zillowstatic.com/fp/83b9253db8c9f7fdefa7d990b9524442-p_e.jpg"
+      },
+      {
+        "city": "Wrocław",
+        "bedrooms": 2,
+        "description": "Mieszkanie na nowym osiedlu",
+        "price": 300000,
+        "address": "ul. Główna 14",
+        "mail": "wro123@mail.com",
+        "image":
+          "https://photos.zillowstatic.com/fp/b4b8d1f6b92cd66afb516f454d182e6c-p_e.jpg"
+      }
+]
